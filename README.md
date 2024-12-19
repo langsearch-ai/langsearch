@@ -10,14 +10,14 @@
 For individuals and small teams, we offer free access as we build AGI together.
 
 # Core APIs
-## [Web Search API (Free) ->](https://docs.langsearch.com/api/web-search-api)
+## [Free Web Search API ->](https://docs.langsearch.com/api/web-search-api)
 Get enhanced search details from billions of web documents, including news, images, videos, and more.
 
 - Hybrid search combining keywords and vectors for enhanced accuracy.
 - Long-text summaries from raw content, with support for markdown formatting for improved readability.
 - Perfect for individuals and small teams, offering free access as we build AGI together.
 
-## [Semantic Rerank API (Free) ->](https://docs.langsearch.com/api/semantic-rerank-api)
+## [Free Semantic Rerank API ->](https://docs.langsearch.com/api/semantic-rerank-api)
 Improve the accuracy of your search results with semantic reranking.
 - Boosts any existing keyword or vector search system without requiring significant changes to your infrastructure.
 - Provides a powerful semantic layer to refine results, ensuring higher relevance.
