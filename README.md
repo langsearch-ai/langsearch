@@ -1,11 +1,11 @@
 ![image](https://github.com/user-attachments/assets/724c7b2b-26e6-4697-8498-3a2c020daef9)
 
-# LangSearch - Free Search API, Free Rerank API, The World Engine For AGI.
+# LangSearch - Free Web Search API, Free Rerank API, The World Engine For AGI.
 
 <img width="1510" alt="image" src="https://github.com/user-attachments/assets/88a1ee52-c951-4081-a664-91df975f84fe" />
 
 # Overview
-[LangSearch](https://langsearch.com) offers two Free APIs: the Web Search API and the Semantic Rerank API, designed to connect your LLM applications to the world, and access clean, accurate, high-quality context.
+[LangSearch](https://langsearch.com) offers two Free APIs: Free Web Search API and Free Rerank API, designed to connect your LLM applications to the world, and access clean, accurate, high-quality context.
 
 For individuals and small teams, we offer free access as we build AGI together.
 
