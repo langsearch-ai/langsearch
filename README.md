@@ -77,7 +77,6 @@ payload = json.dumps({
   "query": "tell me the highlights from Apple's 2024 ESG report",
   "freshness": "noLimit",
   "summary": True,
-  "livecrawl": True,
   "count": 10
 })
 headers = {
