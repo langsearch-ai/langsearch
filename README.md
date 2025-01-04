@@ -25,7 +25,7 @@ Improve the accuracy of your search results with semantic reranking.
 - Boosts any existing keyword or vector search system without requiring significant changes to your infrastructure.
 - Provides a powerful semantic layer to refine results, ensuring higher relevance.
 
-<img width="1079" alt="image" src="https://github.com/user-attachments/assets/958d3211-8f19-42f8-b301-16554bb67270" />
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/19065622-9e72-40bb-b8bd-c3463302eb31" />
 
 
 # Core Products
