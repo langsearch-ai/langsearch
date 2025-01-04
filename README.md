@@ -17,10 +17,16 @@ Get enhanced search details from billions of web documents, including news, imag
 - Long-text summaries from raw content, with support for markdown formatting for improved readability.
 - Perfect for individuals and small teams, offering free access as we build AGI together.
 
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/d7938f83-3b77-452f-a104-e31079db7fc5" />
+
+
 ## [Free Semantic Rerank API ->](https://docs.langsearch.com/api/semantic-rerank-api)
 Improve the accuracy of your search results with semantic reranking.
 - Boosts any existing keyword or vector search system without requiring significant changes to your infrastructure.
 - Provides a powerful semantic layer to refine results, ensuring higher relevance.
+
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/958d3211-8f19-42f8-b301-16554bb67270" />
+
 
 # Core Products
 ## [LangSearch Database](https://docs.langsearch.com/product/langsearch-database)
