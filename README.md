@@ -1,145 +1,318 @@
-![image](https://github.com/user-attachments/assets/724c7b2b-26e6-4697-8498-3a2c020daef9)
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-# LangSearch - Free Web Search API, Free Rerank API, The World Engine For AGI.
+<p align="center">
+  <a href="https://langsearch.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+      <img src="assets/logo-light.png" alt="LangSearch" width="288">
+    </picture>
+  </a>
+</p>
 
-<img width="1510" alt="image" src="https://github.com/user-attachments/assets/88a1ee52-c951-4081-a664-91df975f84fe" />
+<h1 align="center">Free Web Search API for AI Agents</h1>
 
-# Overview
-[LangSearch](https://langsearch.com) offers two Free APIs: Free Web Search API and Free Rerank API, designed to connect your LLM applications to the world, and access clean, accurate, high-quality context.
+<p align="center"><strong>The World Engine for AGI.</strong></p>
 
-For individuals and small teams, we offer free access as we build AGI together.
+<p align="center">
+  Give your agents access to the web.<br>
+  Find sources, retrieve webpage text, and bring current information into your AI workflows.
+</p>
 
-# Core APIs
-## [Free Web Search API ->](https://docs.langsearch.com/api/web-search-api)
-Get enhanced search details from billions of web documents, including news, images, videos, and more.
+<p align="center">
+  <a href="https://langsearch.com/dashboard"><strong>Get your free API key →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://docs.langsearch.com/reference/search-api-guide">Documentation</a>
+  &nbsp;·&nbsp;
+  <a href="https://langsearch.com/pricing">Free Plan</a>
+  &nbsp;·&nbsp;
+  <a href="https://docs.langsearch.com/integrations/mcp">MCP</a>
+  &nbsp;·&nbsp;
+  <a href="https://langsearch.com/install/skill.md">Agent Skill</a>
+</p>
 
-- Hybrid search combining keywords and vectors for enhanced accuracy.
-- Long-text summaries from raw content, with support for markdown formatting for improved readability.
-- Perfect for individuals and small teams, offering free access as we build AGI together.
+<table>
+<tr><td>
 
-<img width="1079" alt="image" src="https://github.com/user-attachments/assets/d7938f83-3b77-452f-a104-e31079db7fc5" />
+**✦ AGENT QUICK START**
 
+### Give your agent the web.
 
-## [Free Semantic Rerank API ->](https://docs.langsearch.com/api/semantic-rerank-api)
-Improve the accuracy of your search results with semantic reranking.
-- Boosts any existing keyword or vector search system without requiring significant changes to your infrastructure.
-- Provides a powerful semantic layer to refine results, ensuring higher relevance.
+One prompt to install the LangSearch Skill.
 
-<img width="1079" alt="image" src="https://github.com/user-attachments/assets/19065622-9e72-40bb-b8bd-c3463302eb31" />
-
-
-# Core Products
-## [LangSearch Database](https://docs.langsearch.com/product/langsearch-database)
-
-A Hybrid Search Database for the Next Generation of Search.
-
-![image](https://github.com/user-attachments/assets/723780de-ec61-4fb5-ae65-0b69f47a78dd)
-
-LangSearch Database is a cutting-edge hybrid search database designed to provide highly relevant and accurate search results by combining the strengths of traditional keyword-based search and advanced vector-based search. It is optimized for AI-driven applications, ensuring that search systems not only return the most relevant results but also understand context and intent. Whether you're dealing with large-scale data or fine-tuning your search experience, LangSearchDB delivers powerful, high-performance search capabilities.
-LangSearch Database serves as the backbone for various search applications, including the Web Search API, providing seamless access to billions of web documents, images, videos, and more. It integrates both keyword and semantic search technologies to give users access to high-quality, contextually accurate information.
-
-[See More Features..](https://docs.langsearch.com/product/langsearch-database)
-
-## [LangSearch Reranker](https://docs.langsearch.com/product/langsearch-reranker)
-
-Intelligent Ranking for Enhanced Search Results.
-
-![image](https://github.com/user-attachments/assets/ca489f7c-e76b-47d5-ae41-20b594469284)
-
-LangSearch Reranker is a powerful text-semantic-based ranking model designed to improve the accuracy of search results in search applications and retrieval-augmented generation (RAG) applications. By leveraging deep learning technologies and the Transformer architecture, LangSearch Reranker performs secondary optimization of the initial ranking results, enhancing relevance and overall user experience. Whether you’re using keyword search, vector search, or hybrid search, LangSearch Reranker helps deliver highly relevant results with precise ranking.
-
-[See More Features..](https://docs.langsearch.com/product/langsearch-reranker)
-
-# Quick Start
-## Get API key
-
-First, create an account and grab a free API key.
-
-[https://langsearch.com/api-keys](https://langsearch.com/api-keys)
-
-## Try Web Search API
-
-### cURL
-```bash
-curl --location 'https://api.langsearch.com/v1/web-search' \
---header 'Authorization: Bearer YOUR-API-KEY' \
---header 'Content-Type: application/json' \
---data '{
-    "query": "tell me the highlights from Apple 2024 ESG report",
-    "freshness": "noLimit",
-    "summary": true,
-    "count": 10
-}'
+```text
+Read https://langsearch.com/install/skill.md and follow the instructions to install the LangSearch skill for my agent.
 ```
 
-### Python
+[Get your free API key →](https://langsearch.com/dashboard) · [Installation guide ↗](https://langsearch.com/install/skill.md)
+
+</td></tr>
+</table>
+
+---
+
+[Features](#the-web-ready-for-your-agent) · [Benchmarks](#benchmarks--compare-the-essentials) · [Free Plan](#every-web-search-feature-free) · [Quick start](#get-started) · [Integrations](#bring-langsearch-to-your-project)
+
+## The web, ready for your agent
+
+[LangSearch](https://langsearch.com) is a Web Search API for AI agents, coding assistants, research workflows, and RAG applications. Send a query and receive structured results with source URLs and snippets—or request full webpage text for your model's context.
+
+Connect through the **API**, use the official **MCP server**, or give your agent the **LangSearch Skill**. No LangSearch-specific SDK is required for direct API access.
+
+| What you need | What LangSearch provides |
+| --- | --- |
+| Sources for an answer | Search results with titles and URLs your agent can cite |
+| More context | Full webpage text with a configurable character limit per result |
+| Recent information | Relative time windows, a specific date, or a date range |
+| Control over sources | Include or exclude domains |
+| A few links or a broader search | Up to 50 results per request |
+| Search in your existing tools | Hosted MCP over Streamable HTTP and an installable Agent Skill |
+
+## Benchmarks — compare the essentials
+
+**Free to build. Relevant context. Less waiting.**
+
+![Price, SimpleQA accuracy, and latency comparison for LangSearch, Exa, Tavily, and Brave](assets/benchmarks.svg)
+
+| Metric | **LangSearch** | Exa | Tavily | Brave |
+| --- | ---: | ---: | ---: | ---: |
+| **Price** · USD / 1,000 requests ↓ | **$0** | $7 | $8 | $5 |
+| **Accuracy** · SimpleQA score ↑ | **95.37%** | 90.04% | 83.26% | 87.42% |
+| **Latency** · milliseconds ↓ | **100 ms** | 178 ms | 260 ms | 559 ms |
+
+<details>
+<summary>Sources and comparison conditions · September 13, 2026</summary>
+
+- **Price:** published usage rates before free credits, taxes, or volume discounts. Exa standard Search (up to 10 results), Tavily Basic PAYG (one credit per search), and Brave Search. LangSearch has a daily allowance; $0 does not mean unlimited usage. Sources: [Exa](https://exa.ai/pricing), [Tavily](https://docs.tavily.com/documentation/api-credits), [Brave](https://brave.com/search/api/).
+- **Accuracy:** SimpleQA scores supplied and confirmed by LangSearch. The chart uses the full 0–100% scale.
+- **Latency:** LangSearch's 100 ms is team-reported; percentile and test conditions are not specified. Competitor figures are [Exa-reported P50](https://exa.ai/enterprise) for Exa Instant, Tavily Ultra-Fast, and Brave Search. These reported figures are not a controlled, like-for-like measurement; pricing modes differ from performance modes.
+
+</details>
+
+## Every Web Search feature. Free.
+
+[![Free Plan: $0, all features included, no credit card required. Daily allowance resets at 00:00 UTC.](assets/free-plan.svg)](https://langsearch.com/dashboard)
+
+<p align="center"><a href="https://langsearch.com/dashboard"><strong>Get your free API key →</strong></a> &nbsp;·&nbsp; <a href="https://langsearch.com/pricing">Explore the Free Plan</a></p>
+
+**$0 · Every supported Web Search feature · No credit card required.**
+
+Your account has a daily allowance that **automatically resets at 00:00 UTC**. API keys on the same account share that allowance; MCP uses your LangSearch API key. View current usage and the next reset in your [Dashboard](https://langsearch.com/dashboard).
+
+<details>
+<summary><strong>See everything included in the Free Plan</strong></summary>
+
+| Feature | Free Plan |
+| --- | --- |
+| Web search | Free |
+| Search snippets | Free |
+| Full webpage text | Free |
+| Text length control | Free |
+| Date and domain filters | Free |
+| Up to 50 results per request | Free |
+| Official MCP access | Free |
+| Agent Skill | Free |
+
+</details>
+
+## Get started
+
+Create a key in [Dashboard → API keys](https://langsearch.com/dashboard), then choose how you want to connect.
+
+### API — make your first search
+
+Replace `YOUR_LANGSEARCH_API_KEY` and run this from your terminal or server:
+
+```bash
+curl --request POST 'https://api.langsearch.com/v1/web-search' \
+  --header 'Authorization: Bearer YOUR_LANGSEARCH_API_KEY' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "query": "How do AI agents use web search?",
+    "count": 5,
+    "contents": {
+      "text": true
+    }
+  }'
+```
+
+Read results from **`data.webPages.value`**:
+
+| Field | Meaning |
+| --- | --- |
+| `name` | Page title |
+| `url` | Source URL |
+| `text` | Webpage text when text mode is enabled |
+| `snippet` | Search snippet when text mode is not enabled |
+| `datePublished` | Publication date, when available |
+
+With `contents.text: true`, `text` replaces `snippet` and is limited to **5,000 characters per result** by default. Available text may be shorter or missing, and a search can return an empty result list. Keep source URLs alongside the text for citations.
+
+<details>
+<summary><strong>Python</strong></summary>
+
+Install the HTTP client with `pip install requests`.
+
 ```python
 import requests
-import json
 
-url = "https://api.langsearch.com/v1/web-search"
+response = requests.post(
+    "https://api.langsearch.com/v1/web-search",
+    headers={"Authorization": "Bearer YOUR_LANGSEARCH_API_KEY"},
+    json={
+        "query": "How do AI agents use web search?",
+        "count": 5,
+        "contents": {"text": True},
+    },
+    timeout=30,
+)
+response.raise_for_status()
+payload = response.json()
+if str(payload.get("code")) != "200":
+    raise RuntimeError(f"Search failed: {payload.get('message', 'Unknown error')}")
 
-payload = json.dumps({
-  "query": "tell me the highlights from Apple's 2024 ESG report",
-  "freshness": "noLimit",
-  "summary": True,
-  "count": 10
-})
-headers = {
-  'Authorization': 'Bearer YOUR-API-KEY',
-  'Content-Type': 'application/json'
+for page in payload["data"]["webPages"]["value"]:
+    print(page.get("name", ""), page["url"])
+    print(page.get("text", ""))
+```
+
+</details>
+
+<details>
+<summary><strong>JavaScript (Node.js 18+)</strong></summary>
+
+```javascript
+const response = await fetch("https://api.langsearch.com/v1/web-search", {
+  method: "POST",
+  headers: {
+    Authorization: "Bearer YOUR_LANGSEARCH_API_KEY",
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    query: "How do AI agents use web search?",
+    count: 5,
+    contents: { text: true },
+  }),
+  signal: AbortSignal.timeout(30_000),
+});
+
+if (!response.ok) throw new Error(`Search failed: HTTP ${response.status}`);
+const payload = await response.json();
+if (String(payload.code) !== "200") {
+  throw new Error(`Search failed: ${payload.message ?? "Unknown error"}`);
 }
 
-response = requests.request("POST", url, headers=headers, data=payload)
-
-print(response.text)
-```
-
-## Try Semantic Rerank API
-
-### cURL
-```bash
-curl --location 'https://api.langsearch.com/v1/rerank' \
---header 'Authorization: Bearer YOUR-API-KEY' \
---header 'Content-Type: application/json' \
---data '{
-    "model": "langsearch-reranker-v1",
-    "query": "Tell me the key points of Alibaba 2024 ESG report",
-    "top_n": 2,
-    "return_documents": true,
-    "documents": [
-        "Alibaba Group released the 2024 Environmental, Social, and Governance (ESG) report, detailing the progress made in various ESG areas over the past year. The report shows that Alibaba has steadily advanced its carbon reduction efforts, with the group'\''s net carbon emissions and carbon intensity of the value chain continuing to decrease. The group also continues to leverage digital technologies and platform capabilities to support accessible development, healthcare, aging-friendly services, and small and micro enterprises. Alibaba Group'\''s CEO, Wu Yongming, stated in the report: '\''The core of ESG is about becoming a better company. Over the past 25 years, the actions related to ESG have formed the foundation of Alibaba, which is just as important as the commercial value we create. While the group is focused on the dual business strategies of '\''user-first'\'' and '\''AI-driven,'\'' we also remain committed to ESG as one of Alibaba'\''s cornerstone strategies. Alibaba has made solid progress in reducing carbon emissions.'\''",
-        "The core of ESG is about becoming a better company. This year marks the 25th anniversary of Alibaba. Over the past 25 years, Alibaba has adhered to its mission of '\''making it easy to do business everywhere,'\'' supporting the prosperity of domestic e-commerce; maintaining an open ecosystem, with the Magic搭 community opening over 3,800 open-source models; assisting in rural revitalization, having sent 29 rural special envoys to 27 counties; promoting platform carbon reduction, pioneering a Scope 3+ carbon reduction plan; and engaging in employee welfare, with the '\''Everyone 3 Hours'\'' initiative making small but meaningful changes... These actions form the foundation of Alibaba, which is just as important as creating commercial value. I hope that every Alibaba employee will learn to make difficult but correct choices, maintaining foresight, goodwill, and pragmatism. A better Alibaba is worth our collective efforts. Alibaba'\''s mission, unchanged for over 20 years, is to make it easy to do business in the world. Today, this mission takes on new significance in this era."
-    ]
-}'
-```
-
-### Python
-```python
-import requests
-import json
-
-url = "https://api.langsearch.com/v1/rerank"
-
-payload = json.dumps({
-  "model": "langsearch-reranker-v1",
-  "query": "Tell me the key points of Alibaba 2024 ESG report",
-  "top_n": 2,
-  "return_documents": True,
-  "documents": [
-    "Alibaba Group released the 2024 Environmental, Social, and Governance (ESG) report, detailing the progress made in various ESG areas over the past year. The report shows that Alibaba has steadily advanced its carbon reduction efforts, with the group's net carbon emissions and carbon intensity of the value chain continuing to decrease. The group also continues to leverage digital technologies and platform capabilities to support accessible development, healthcare, aging-friendly services, and small and micro enterprises. Alibaba Group's CEO, Wu Yongming, stated in the report: 'The core of ESG is about becoming a better company. Over the past 25 years, the actions related to ESG have formed the foundation of Alibaba, which is just as important as the commercial value we create. While the group is focused on the dual business strategies of 'user-first' and 'AI-driven,' we also remain committed to ESG as one of Alibaba's cornerstone strategies. Alibaba has made solid progress in reducing carbon emissions.'",
-    "The core of ESG is about becoming a better company. This year marks the 25th anniversary of Alibaba. Over the past 25 years, Alibaba has adhered to its mission of 'making it easy to do business everywhere,' supporting the prosperity of domestic e-commerce; maintaining an open ecosystem, with the Magic搭 community opening over 3,800 open-source models; assisting in rural revitalization, having sent 29 rural special envoys to 27 counties; promoting platform carbon reduction, pioneering a Scope 3+ carbon reduction plan; and engaging in employee welfare, with the 'Everyone 3 Hours' initiative making small but meaningful changes... These actions form the foundation of Alibaba, which is just as important as creating commercial value. I hope that every Alibaba employee will learn to make difficult but correct choices, maintaining foresight, goodwill, and pragmatism. A better Alibaba is worth our collective efforts. Alibaba's mission, unchanged for over 20 years, is to make it easy to do business in the world. Today, this mission takes on new significance in this era."
-  ]
-})
-headers = {
-  'Authorization': 'Bearer YOUR-API-KEY',
-  'Content-Type': 'application/json'
+for (const page of payload.data.webPages.value) {
+  console.log(page.name ?? "", page.url);
+  console.log(page.text ?? "");
 }
-
-response = requests.request("POST", url, headers=headers, data=payload)
-
-print(response.text)
 ```
 
-# Why LangSearch?
-LangSearch leverages a hybrid search database that combines the power of keyword and vector searches, using advanced LangSearch Reranker model to further enhance result accuracy. Whether you’re enhancing web search or optimizing reranking, LangSearch provides the tools to ensure your search systems yield more accurate, meaningful results.
+Run as an ES module (`.mjs`) or inside an async function.
+
+</details>
+
+Keep your API key in a trusted local or server environment. Do not commit real keys or include them in browser code.
+
+### MCP — connect your tools
+
+Use the official hosted server with compatible MCP clients:
+
+| Setting | Value |
+| --- | --- |
+| URL | `https://mcp.langsearch.com/mcp` |
+| Transport | Streamable HTTP |
+| Authentication | `Authorization: Bearer YOUR_LANGSEARCH_API_KEY` |
+| Tool | `web_search` |
+
+For **Cursor**, merge this into `.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "langsearch": {
+      "url": "https://mcp.langsearch.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_LANGSEARCH_API_KEY"
+      }
+    }
+  }
+}
+```
+
+Replace the placeholder, reload the connection, and ask your agent:
+
+> Search the web for recent developments in AI coding agents and include source links.
+
+Client configuration formats differ. Find setup instructions for **Codex, Claude Code, Cursor, VS Code, Gemini CLI, OpenCode, Windsurf, Cline, Roo Code, and Zed** in the [MCP guide](https://docs.langsearch.com/integrations/mcp).
+
+### Skill — let your agent handle setup
+
+Paste this prompt into your agent:
+
+```text
+Read https://langsearch.com/install/skill.md and follow the instructions to install the LangSearch skill for my agent.
+```
+
+The Skill supplies installation and usage instructions; your agent still needs a LangSearch API key. [Read the Skill guide →](https://docs.langsearch.com/integrations/skill)
+
+## Choose your sources and context
+
+Use the same API endpoint with date filters, domain filters, and a text budget:
+
+```json
+{
+  "query": "AI agents and web search",
+  "count": 10,
+  "freshness": "oneMonth",
+  "includeDomains": ["langsearch.com", "openai.com"],
+  "excludeDomains": ["reddit.com"],
+  "contents": {
+    "text": {
+      "max_characters": 3000
+    }
+  }
+}
+```
+
+- **Result count:** `count` defaults to 10; the maximum is 50.
+- **Relative dates:** `noLimit` (default), `oneDay`, `oneWeek`, `oneMonth`, or `oneYear`.
+- **Exact dates:** `2026-09-12`, or an inclusive UTC range such as `2026-09-01..2026-09-13`.
+- **Domains:** use domain strings, such as `langsearch.com` and `openai.com`. Omit the filters for a broader search.
+- **Text budget:** `contents.text.max_characters` must be a positive integer. The object enables text mode itself; no separate `true` flag is needed.
+- **Snippets only:** omit `contents`, or set `contents.text` to `false`.
+
+[API reference →](https://docs.langsearch.com/api/web-search-api) · [Search best practices →](https://docs.langsearch.com/reference/search-best-practices)
+
+## Build with search
+
+- **Coding assistants:** find current documentation, migration guides, and technical explanations.
+- **Research agents:** gather sources, compare evidence, and refine follow-up searches.
+- **RAG applications:** add web context alongside your own knowledge base.
+- **Monitoring workflows:** discover recent pages about a topic and retain links for review.
+- **AI chat applications:** give users answers informed by retrieved sources.
+
+Building with a coding agent? Share our [agent integration guide](https://docs.langsearch.com/reference/search-api-guide-for-coding-agents) or [documentation index](https://docs.langsearch.com/llms.txt).
+
+## Bring LangSearch to your project
+
+Maintaining an agent framework, chat interface, or research tool? We'd love to help make Web Search easier for your users.
+
+You can build a native search provider, connect the hosted MCP server, or add a Skill-based workflow. Contributions that include working examples, tests, and clear setup instructions are welcome.
+
+[Open an integration request](https://github.com/langsearch-ai/langsearch/issues/new) with your project link, the intended workflow, and its extension requirements. If you're contributing to another project, follow its contribution process and check for existing work first.
+
+## Documentation and support
+
+- [Web Search guide](https://docs.langsearch.com/reference/search-api-guide)
+- [API reference](https://docs.langsearch.com/api/web-search-api)
+- [MCP setup](https://docs.langsearch.com/integrations/mcp)
+- [Agent Skill](https://docs.langsearch.com/integrations/skill)
+- [Plan and usage](https://docs.langsearch.com/limits/api-limits)
+- [Errors and troubleshooting](https://docs.langsearch.com/api/errors)
+- [Report an issue](https://github.com/langsearch-ai/langsearch/issues)
+
+For API issues, include the request parameters, HTTP status, and `log_id` when available. Remove API keys and private data before posting.
+
+---
+
+<p align="center"><strong>LangSearch — The World Engine for AGI.</strong></p>

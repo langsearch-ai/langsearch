@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+<title id="title">LangSearch 免费计划</title>
+<desc id="desc">$0，全部 Web Search 功能免费，无需信用卡。每日额度于 00:00 UTC 自动重置。</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1265ee"/><stop offset="1" stop-color="#0b3b9d"/></linearGradient></defs>
+<rect width="1000" height="480" rx="24" fill="url(#bg)"/>
+<circle cx="90" cy="450" r="260" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="65"/>
+<rect x="422" y="24" width="554" height="432" rx="18" fill="white"/>
+<text x="38" y="62" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#c8deff" font-weight="700">LANGSEARCH / FREE PLAN</text>
+<text x="36" y="118" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="38" fill="white" font-weight="700">免费计划</text>
+<text x="32" y="225" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="108" fill="white" font-weight="700">$0</text>
+<text x="39" y="260" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="white" font-weight="600">全部 Web Search 功能免费</text>
+<text x="39" y="291" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="white" font-weight="600">为你的下一个 Agent 而准备。</text>
+<rect x="38" y="326" width="342" height="54" rx="10" fill="white"/>
+<text x="61" y="360" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#1259d6" font-weight="700">获取免费 API Key  →</text>
+<text x="39" y="410" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#d5e5ff" font-weight="400">无需信用卡</text>
+<text x="39" y="438" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#d5e5ff" font-weight="600">API  /  MCP  /  SKILL</text>
+<text x="451" y="65" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#14213a" font-weight="700">每一项，都包含。</text>
+<circle cx="462" cy="101" r="10" fill="#edf5ff"/><path d="M457 101 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="106" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">网页搜索</text>
+<text x="899" y="106" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<circle cx="462" cy="145" r="10" fill="#edf5ff"/><path d="M457 145 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="150" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">搜索片段与网页正文</text>
+<text x="899" y="150" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<circle cx="462" cy="189" r="10" fill="#edf5ff"/><path d="M457 189 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="194" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">每条正文的字符上限控制</text>
+<text x="899" y="194" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<circle cx="462" cy="233" r="10" fill="#edf5ff"/><path d="M457 233 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="238" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">日期与域名过滤</text>
+<text x="899" y="238" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<circle cx="462" cy="277" r="10" fill="#edf5ff"/><path d="M457 277 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="282" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">每次请求最多 50 条结果</text>
+<text x="899" y="282" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<circle cx="462" cy="321" r="10" fill="#edf5ff"/><path d="M457 321 l3 3 l6 -6" fill="none" stroke="#176cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="326" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#33435d" font-weight="500">官方 MCP 与 Agent Skill</text>
+<text x="899" y="326" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#176cff" font-weight="700">免费</text>
+<line x1="451" x2="946" y1="355" y2="355" stroke="#e8edf5"/>
+<text x="451" y="389" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#14213a" font-weight="700">每日额度，自动重置</text>
+<text x="451" y="417" font-family="Inter, Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#64748b" font-weight="400">00:00 UTC  ·  在 Dashboard 查看用量</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="432" viewBox="0 0 1080 432" role="img" aria-labelledby="title desc">
+<title id="title">LangSearch benchmarks: price, accuracy, latency</title>
+<desc id="desc">LangSearch: $0 per 1,000 requests, 95.37% SimpleQA, 100ms reported latency. See README for sources and comparison conditions.</desc>
+<rect width="1080" height="432" rx="24" fill="#f4f7fc"/>
+<text x="28" y="35" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="13" fill="#176cff" font-weight="700">BENCHMARKS / 关键指标</text>
+<rect x="20" y="54" width="332" height="335" rx="16" fill="white" stroke="#e1e8f3"/>
+<text x="40" y="84" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="15" fill="#14213a" font-weight="700">01 / 价格</text>
+<text x="40" y="139" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="44" fill="#176cff" font-weight="700">$0</text>
+<text x="40" y="165" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#61718a" font-weight="400">每千次请求 · USD · 越低越好</text>
+<text x="40" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#176cff" font-weight="700">LangSearch</text>
+<text x="263" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">$0</text>
+<rect x="40" y="213" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<circle cx="40" cy="215.5" r="3" fill="#176cff"/>
+<text x="40" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Exa</text>
+<text x="263" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">$7</text>
+<rect x="40" y="257" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="40" y="257" width="253.75" height="5" rx="2.5" fill="#8596b0"/>
+<text x="40" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Tavily</text>
+<text x="263" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">$8</text>
+<rect x="40" y="301" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="40" y="301" width="290.0" height="5" rx="2.5" fill="#8596b0"/>
+<text x="40" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Brave</text>
+<text x="263" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">$5</text>
+<rect x="40" y="345" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="40" y="345" width="181.25" height="5" rx="2.5" fill="#8596b0"/>
+<rect x="374" y="54" width="332" height="335" rx="16" fill="white" stroke="#e1e8f3"/>
+<text x="394" y="84" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="15" fill="#14213a" font-weight="700">02 / 准确率</text>
+<text x="394" y="139" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="44" fill="#176cff" font-weight="700">95.37%</text>
+<text x="394" y="165" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#61718a" font-weight="400">SimpleQA · 越高越好</text>
+<text x="394" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#176cff" font-weight="700">LangSearch</text>
+<text x="617" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">95.37%</text>
+<rect x="394" y="213" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="394" y="213" width="276.57300000000004" height="5" rx="2.5" fill="#176cff"/>
+<text x="394" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Exa</text>
+<text x="617" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">90.04%</text>
+<rect x="394" y="257" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="394" y="257" width="261.11600000000004" height="5" rx="2.5" fill="#8596b0"/>
+<text x="394" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Tavily</text>
+<text x="617" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">83.26%</text>
+<rect x="394" y="301" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="394" y="301" width="241.454" height="5" rx="2.5" fill="#8596b0"/>
+<text x="394" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Brave</text>
+<text x="617" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">87.42%</text>
+<rect x="394" y="345" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<rect x="394" y="345" width="253.518" height="5" rx="2.5" fill="#8596b0"/>
+<rect x="728" y="54" width="332" height="335" rx="16" fill="white" stroke="#e1e8f3"/>
+<text x="748" y="84" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="15" fill="#14213a" font-weight="700">03 / 延迟</text>
+<text x="748" y="139" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="44" fill="#176cff" font-weight="700">100 ms</text>
+<text x="748" y="165" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#61718a" font-weight="400">毫秒 · 越低越好</text>
+<text x="748" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#176cff" font-weight="700">LangSearch</text>
+<text x="971" y="204" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">100 ms</text>
+<rect x="748" y="213" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<circle cx="796.3333333333334" cy="215.5" r="4" fill="#176cff"/>
+<text x="748" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Exa</text>
+<text x="971" y="248" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">178 ms</text>
+<rect x="748" y="257" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<circle cx="834.0333333333333" cy="259.5" r="4" fill="#8596b0"/>
+<text x="748" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Tavily</text>
+<text x="971" y="292" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">260 ms</text>
+<rect x="748" y="301" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<circle cx="873.6666666666666" cy="303.5" r="4" fill="#8596b0"/>
+<text x="748" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#465671" font-weight="400">Brave</text>
+<text x="971" y="336" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#14213a" font-weight="700">559 ms</text>
+<rect x="748" y="345" width="290" height="5" rx="2.5" fill="#edf1f7"/>
+<circle cx="1018.1833333333334" cy="347.5" r="4" fill="#8596b0"/>
+<text x="28" y="415" font-family="Inter, Arial, Noto Sans CJK SC, sans-serif" font-size="12" fill="#61718a" font-weight="400">每日额度适用。数据来源和对比口径见下文。</text>
+</svg>
